@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 import "../App.css";
 
 function TurfDetails() {
   const { id } = useParams();
+  const navigate = useNavigate();
 
   const [showBookingForm, setShowBookingForm] = useState(false);
   const [bookingDate, setBookingDate] = useState("");
@@ -72,7 +73,7 @@ function TurfDetails() {
 
             if (verification.data.success) {
               alert("Payment successful! Your turf is booked.");
-              window.location.href = "/dashboard";
+              navigate("/dashboard");
             }
           } catch (error) {
             alert(
