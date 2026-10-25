@@ -2,6 +2,8 @@
 
 **Find your ground. Own your game.**
 
+VIDEO SAMPLE -> [Video Sample] (https://drive.google.com/drive/folders/1iTd5ahr444WVg54gasZKbYQvkiIVB9vs)
+
 Turfly is a web-based turf booking platform that helps users discover sports turfs, explore available grounds, and book their next game with ease. It provides user authentication, turf discovery, booking management, and online payment integration through Razorpay.
 
 ## ✨ Features
@@ -19,6 +21,7 @@ Turfly is a web-based turf booking platform that helps users discover sports tur
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - React
 - Vite
 - React Router
@@ -26,6 +29,7 @@ Turfly is a web-based turf booking platform that helps users discover sports tur
 - CSS
 
 ### Backend
+
 - Node.js
 - Express.js
 - MongoDB
@@ -55,7 +59,7 @@ Turf_Book_Project/
 └── README.md
 ```
 
-*The folder structure above is representative; adjust it if your actual project differs.*
+_The folder structure above is representative; adjust it if your actual project differs._
 
 ## ⚙️ Getting Started
 
@@ -147,12 +151,12 @@ http://localhost:5173
 
 The backend mounts the following API route groups:
 
-| Route | Purpose |
-|---|---|
-| `/api/auth` | Authentication |
-| `/api/turfs` | Turf discovery and related operations |
+| Route           | Purpose                                           |
+| --------------- | ------------------------------------------------- |
+| `/api/auth`     | Authentication                                    |
+| `/api/turfs`    | Turf discovery and related operations             |
 | `/api/bookings` | Booking management and payment-related operations |
-| `/api/health` | Backend health check |
+| `/api/health`   | Backend health check                              |
 
 Individual endpoints depend on the route implementations in the project.
 
@@ -197,4 +201,4 @@ No license has been specified yet. Add a `LICENSE` file if you intend to publish
 
 ---
 
-*Turfly — Your next game starts here.* ⚽
+_Turfly — Your next game starts here._ ⚽
