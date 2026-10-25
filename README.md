@@ -2,7 +2,7 @@
 
 **Find your ground. Own your game.**
 
-VIDEO SAMPLE -> [Video Sample] (https://drive.google.com/drive/folders/1iTd5ahr444WVg54gasZKbYQvkiIVB9vs)
+VIDEO SAMPLE -> [Video Sample](https://drive.google.com/drive/folders/1iTd5ahr444WVg54gasZKbYQvkiIVB9vs)
 
 Turfly is a web-based turf booking platform that helps users discover sports turfs, explore available grounds, and book their next game with ease. It provides user authentication, turf discovery, booking management, and online payment integration through Razorpay.
 
