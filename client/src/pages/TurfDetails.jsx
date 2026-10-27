@@ -135,8 +135,7 @@ function TurfDetails() {
         </Link>
 
         <div className="nav-links">
-          <Link to="/">Home</Link>
-          <Link to="/turfs">Explore Turfs</Link>
+          <Link to="/dashboard">Dashboard</Link>
         </div>
       </nav>
 

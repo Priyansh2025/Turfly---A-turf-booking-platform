@@ -40,11 +40,7 @@ function Home() {
         </Link>
 
         <div className="nav-links">
-          <Link to="/">Home</Link>
-          <Link to="/turfs" className="signup-btn">
-            Explore Turfs
-          </Link>
-          <Link to="/about">About Us</Link>
+          <Link to="/dashboard">Dashboard</Link>
         </div>
 
         <div className="nav-actions">
