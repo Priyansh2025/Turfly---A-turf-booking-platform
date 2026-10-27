@@ -740,6 +740,18 @@ button {
   font-size: 15px;
 }
 
+.dashboard-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.dashboard-actions .signup-btn {
+  min-width: 140px;
+  text-align: center;
+}
+
 .dashboard-layout .turf-discovery {
   padding: 40px 28px;
   box-sizing: border-box;

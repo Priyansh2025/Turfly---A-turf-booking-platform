@@ -76,12 +76,14 @@ function Dashboard() {
               perfect turf.
             </p>
 
-            <Link to="/turfs" className="signup-btn">
-              Explore Turfs
-            </Link>
-            <Link to="/my-bookings" className="signup-btn">
-              My Bookings
-            </Link>
+            <div className="dashboard-actions">
+              <Link to="/turfs" className="signup-btn">
+                Explore Turfs
+              </Link>
+              <Link to="/my-bookings" className="signup-btn">
+                My Bookings
+              </Link>
+            </div>
           </div>
         </section>
         <section className="turf-discovery">
