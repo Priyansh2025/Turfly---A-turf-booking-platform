@@ -54,6 +54,8 @@ function Turfs() {
 
         <div className="nav-links">
           <Link to="/dashboard">Dashboard</Link>
+          <Link to="/turfs">Explore Turfs</Link>
+          <Link to="/my-bookings">My Bookings</Link>
         </div>
       </nav>
 

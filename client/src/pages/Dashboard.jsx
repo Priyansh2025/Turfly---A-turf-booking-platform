@@ -40,6 +40,11 @@ function Dashboard() {
           Turfly<span>.</span>
         </Link>
 
+        <div className="nav-links">
+          <Link to="/turfs">Explore Turfs</Link>
+          <Link to="/my-bookings">My Bookings</Link>
+        </div>
+
         <div className="nav-actions">
           <span className="welcome-user">Hi, {user?.name}</span>
 
